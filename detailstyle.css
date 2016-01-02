@@ -1,0 +1,30 @@
+.eventDetails{
+	min-height: 100px;
+	margin-top: 3vh;
+	margin-left: 2%;
+	margin-right: 2%;
+	overflow: auto;
+	float: left;
+	width: 96%;
+	background-color: white;
+}
+.eventTasks{
+	min-height: 100px;
+	margin-top: 3vh;
+	margin-left: 2%;
+	margin-right: 2%;
+	overflow: auto;
+	float: left;
+	width: 96%;
+	background-color: white;
+}
+.documents{
+	min-height: 100px;
+	margin-top: 3vh;
+	margin-left: 2%;
+	margin-right: 2%;
+	overflow: auto;
+	float: left;
+	width: 96%;
+	background-color: white;
+}

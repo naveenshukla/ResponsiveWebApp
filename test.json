@@ -1,0 +1,86 @@
+{
+  "events": {
+    "event": [{
+      "eventName": "Ceremony",
+      "Date": "Today",
+      "Time": "4:00 pm"
+    }, {
+      "eventName": "Dinner",
+      "Date": "Today",
+      "Time": "8:00 pm"
+    }, {
+      "eventName": "External Board",
+      "Date": "11/05/2015",
+      "Time": "2:30 pm"
+    }, {
+      "eventName": "Internal Message",
+      "Date": "11/01/2015",
+      "Time": "3:30 pm"
+    }, {
+      "eventName": "Interview",
+      "Date": "Today",
+      "Time": "11:00 am"
+    }]
+  },
+  "notifications": {
+    "notification": [{
+      "notify": "Prepare agenda for meeting with Dr. John Snow",
+      "Overdue": "Overdue by 12 hours"
+    }, {
+      "notify": "Schedule an appointment with Dr. John Snow",
+      "Overdue": "Due in 3 hours"
+    }, {
+      "notify": "Schedule Uber for trip",
+      "Overdue": "Due in 4 hours"
+    }, {
+      "notify": "Prepare consultants' meeting's agenda",
+      "Overdue": "Due in 4 Days"
+    }]
+  },
+  "eventDetails": {
+    "eventName": "Lorem Ipsum Makum Dimsum",
+    "eventType": "External Panel/Board",
+    "eventIntakeDate": "01/23/2016 2:00 PM",
+    "eventDate": "01/23/2016 2:00 PM",
+    "eventOwner": "LastName, FirstName",
+    "translationRequired": "Thai, Korean, Bahasa",
+    "tripDetails": "Yes",
+    "tripLocation": "Location Lorem Ipsum",
+    "tripDate": "01/17/2015",
+    "approvalDate": "01/17/2015",
+    "reviewDate": "01/17/2015"
+  },
+  "eventTasks": {
+    "eventTask": [{
+      "taskType": "Outline",
+      "taskOwner": "Lastname, Firstname",
+      "taskDueDate": "11/25/2015 12:00 PM"
+    }, {
+      "taskType": "Speech",
+      "taskOwner": "Lastname, Firstname",
+      "taskDueDate": "11/26/2015 2:00 PM"
+    }, {
+      "taskType": "Presentation",
+      "taskOwner": "Lastname, Firstname",
+      "taskDueDate": "11/26/2015 2:00 PM"
+    }, {
+      "taskType": "CEO Pre-event required",
+      "taskOwner": "Lastname, Firstname",
+      "taskDueDate": "11/26/2015 2:00 PM"
+    }]
+  },
+  "documents": {
+    "documentname": [{
+      "title": "Siemens Corp. Meeting"
+    }]
+  },
+  "documentsDetails": {
+    "documentsDetail": [{
+      "documentName": "Speech",
+      "publishDate": "11/26/2015 2:00 PM"
+    }, {
+      "documentName": "Presentation",
+      "publishDate": "11/26/2015 2:00 PM"
+    }]
+  }
+}

@@ -1,0 +1,438 @@
+body{
+	background-color: #E9EEF1
+}
+#badgeIcon{
+	margin-left: -40px;
+	margin-bottom: 15px;
+}
+li{
+	border-radius: 0px;
+}
+.badge{
+	background-color: blue;
+	border-radius: 0px;
+}
+.header{
+	background-color: rgb(202,37,37);
+	text-align: right;
+}
+#navigateBefore{
+	padding: 0.8em;
+	margin-left: 0.4em;
+	margin-right: 0.4em;
+	float:left;
+	width: 4em;
+	height: 4em;
+}
+#navigateText{
+	float: left;
+	font-size: 25px;
+	margin-top: 10px;
+	color:white;
+}
+.header-image{
+	width: 4em;
+	height: 4em;
+	padding: 0.8em;
+	color:blue;
+	margin-left: 0.4em;
+	margin-right: 0.4em;
+}
+.sidebar-image{
+	position: relative;
+	width: 4em;
+	height: 3em;
+	padding: 0em;
+	color:blue;
+}
+#grad {
+  background: red; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, #006A3C , #002E62); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #006A3C, #002E62); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #006A3C, #002E62); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #006A3C , #002E62); /* Standard syntax */
+}
+.sidebar{
+	/*margin-right: 10px;*/
+	width: 100px;
+	background-color: #39414E;
+	text-align: center;
+	float: left;
+	position: absolute;
+	height: inherit;
+	margin-top: 0px;
+}
+.sidebar li a {
+	text-align:center;
+	font-size: 15px;
+	color:white;
+	position: relative;
+}
+.events{
+	margin-left:100px; 
+	width: inherit;
+	height: inherit;
+	overflow: hidden;
+}
+.main-content{
+
+}
+.events-one{
+	height: 50vh;
+	overflow: auto;
+	width: 44%;
+	margin-top: 3vh;
+	background-color: white;
+	float: left;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+.events-one::-webkit-scrollbar { 
+    display: none; 
+}
+.events-one::-moz-scrollbar { 
+    display: none; 
+}
+.events-one::-o-scrollbar { 
+    display: none; 
+}
+.events-one::-ms-scrollbar { 
+    display: none; 
+}
+.events-two{
+	overflow: auto;
+	height: 50vh;
+	width: 50%;
+	margin-top: 3vh;
+	margin-right: 2%;
+	background-color: white;
+	float: left;
+}
+.events-two::-webkit-scrollbar { 
+    display: none; 
+}
+.events-two::-moz-scrollbar { 
+    display: none; 
+}
+.events-two::-o-scrollbar { 
+    display: none; 
+}
+.events-two::-ms-scrollbar { 
+    display: none; 
+}
+.events-three{
+	height: 44vh;
+	margin-top: 3vh;
+	margin-left: 2%;
+	margin-right: 2%;
+	overflow: auto;
+	float: left;
+	width: 96%;
+	background-color: white;
+}
+.searchBox{
+	display: none;
+	height: 40px;
+	margin-top: 0px;
+	top: 0;
+	margin-left: 0px;
+	margin-right: 0px;
+	float: left;
+	width: 100%;
+	background-color: white;
+	margin-bottom: 5px;
+}
+.evenHeight{
+	height: 40px;
+	float: left;
+}
+#searchEvent{
+	padding-top: 10px;
+	width: 20%;
+	text-align: center;
+}
+#searchEvent p{
+	text-align: center;
+	vertical-align: text-bottom;
+}
+#eventSearchBox{
+	text-align: center;
+	width: 20%;
+	background-color: white;
+}
+#eventSearchBox input{
+	width: 90%;	
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-right: 5%;
+	margin-left: 5%;
+	height: 30px;
+ 	border-radius: 0px!important;
+ 	border:none!important;
+ 	background-color:  #eee;
+}
+#searchName{
+	padding-top: 10px;
+	text-align: center;
+	width: 15%;
+	background-color: white;
+}
+#nameSearchBox{
+	width:18%;
+	background-color: white;
+}
+#nameSearchBox input{
+	width: 90%;	
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-right: 5%;
+	margin-left: 5%;
+	height: 30px;
+ 	border-radius: 0px!important;
+ 	border:none!important;
+ 	background-color:  #eee;
+}
+#typeSearch{
+	width: 18%;
+	background-color: white;
+}
+#typeSearch input{
+	width: 90%;	
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-right: 5%;
+	margin-left: 5%;
+	height: 30px;
+ 	border-radius: 0px!important;
+ 	border:none!important;
+ 	background-color:  #eee;
+}
+#buttonGo{
+	width: 9%;
+	background-color: white;
+}
+.greenButton{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	width: 70%;
+	color:white;
+	height: 30px;
+	border:none!important;
+	background: #5cb85c!important;
+ 	border-radius: 0px!important;
+}
+#buttonGo button{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	width: 70%;
+	height: 30px;
+	border:none!important;
+	background: #5cb85c!important;
+ 	border-radius: 0px!important;
+}
+.events-three::-webkit-scrollbar { 
+    display: none; 
+}
+.events-three::-moz-scrollbar { 
+    display: none; 
+}
+.events-three::-o-scrollbar { 
+    display: none; 
+}
+.events-three::-ms-scrollbar { 
+    display: none; 
+}
+.sidebar-navigation{
+	width: 100px;
+	height: 100%;
+	background-color:  #39414E;
+}
+tr:nth-child(even){
+	background-color: #F9FAFC;
+}
+.tableClass {
+    border-collapse: collapse;
+    width: 100%;
+    padding-right: 5px;
+    overflow: scroll;
+}
+.headerText{
+	color:#0099ff;
+	font-size: 18px;
+}
+.thTd{
+    text-align: left;
+    padding: 8px;
+}
+.Bold{
+	font-weight: bold;
+}
+.Italics{
+	font-style: italic;
+}
+.viewButton{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	width: 70%;
+	height: 30px;
+	border:none!important;
+	background: #777!important;
+ 	border-radius: 0px!important;
+}
+.viewButtonShorter{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	width: 50%;
+	height: 30px;
+	border:none!important;
+	background: #777!important;
+ 	border-radius: 0px!important;
+}
+.ui-datepicker,
+.ui-datepicker table,
+.ui-datepicker tr,
+.ui-datepicker td,
+.ui-datepicker th {
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-align: center;
+}
+.ui-datepicker tr{
+	position: relative;
+	overflow: hidden;
+	height:37px;
+}
+.ui-datepicker td{
+	height: 37px;
+}
+.ui-datepicker {
+    display: block;
+    width: 100%;
+    cursor: default;
+ 
+    text-transform: uppercase;
+    font-family: Tahoma;
+    font-size: 12px;
+ 
+    background:white;
+}
+.ui-datepicker-header {
+	display: block;
+    position: absolute;
+    background-color: white;
+    left: 0;
+    float: left;
+    width: 90%;
+    border:none!important;
+   /* border-bottom: 1px solid #d6d6d6;*/
+}
+.ui-datepicker-title { text-align: center;}
+ 
+.ui-datepicker-month {
+	text-align: center;
+	font-size: 18px;
+    position: relative;
+    color: #0099ff;
+}
+.ui-datepicker-year {
+	text-align: center;
+	font-size: 18px;
+	position: relative;
+    color: #0099ff;
+}
+.ui-datepicker-month:before {
+    display: block;
+    position: absolute;
+    top: 5px;
+    font-size: 18px;
+    width: 5px;
+    height: 5px;
+    content: '';
+}
+.ui-datepicker-next{
+    position: relative;
+    background-image: url(nextarrow.png);
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+    margin-top: -2px;
+    float: left!important;
+    vertical-align: center;
+    width: 30px!important;
+    cursor: pointer;
+}
+.ui-datepicker-prev{
+	position: relative;
+    background-image: url(prevarrow.png);
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+    margin-top: -2px;
+    float: left!important;
+    vertical-align: center;
+    cursor: pointer;
+    width: 30px!important;
+}
+.ui-datepicker-prev-hover{
+	margin-top: -2px;
+	background-color: inherit!important;
+	background-image:url(prevarrow.png)!important;
+	background-size: 30px 30px!important;
+	background-repeat: no-repeat!important;
+	border:none!important;
+}
+.ui-datepicker-next-hover{
+	margin-top: -2px;
+	background-color: inherit!important;
+	background-image:url(nextarrow.png)!important;
+	background-size: 30px 30px!important;
+	background-repeat: no-repeat!important;
+	border:none!important;
+}
+ .ui-datepicker-prev{
+ 	height: 100%!important;
+ 	position: absolute;
+}
+.ui-datepicker-next{
+	height: 100% !important;
+	position: absolute;
+}
+.ui-datepicker-prev span{
+	display: block;
+
+}
+ .ui-datepicker-calendar td{
+ 	font-size: 20px;
+ }
+ .ui-datepicker-calendar tr{
+ 	border-bottom: 1px solid black;
+ 	text-align: center;
+ }
+.ui-datepicker-calendar th {
+    /*padding-top: 15px;
+    padding-bottom: 10px;*/
+ 	height: 30px;
+    text-align: center;
+    font-weight: normal;
+    color: blue;
+}
+.ui-datepicker-calendar .ui-state-active {
+    color: #6a9113;
+    border: 1px solid #6a9113;
+}
+.ui-datepicker-calendar .ui-state-default{
+	height: 37px;
+	text-align: center;
+	border:none;
+}
+.ui-datepicker-other-month .ui-state-default { color: #565656; }
+#xyz{
+	float: right;
+}
+#xyz img{
+	width: 30px;
+	height: 30px;
+}
+.notificationButton{
+	float:right;
+	margin-right: 20px;
+}
